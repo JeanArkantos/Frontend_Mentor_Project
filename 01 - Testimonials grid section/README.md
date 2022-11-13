@@ -1,6 +1,6 @@
 # Testimonials grid section
 
-This project was made to improve my knowledge with CSS Grid.
+This project was made to improve my knowledge with CSS Grid. [Link to the online repository on Vercel](https://frontend-mentor-project-tau.vercel.app)
 
 It was made with the help of a video from [Traversy Media](https://www.youtube.com/watch?v=0xMQfnTU6oo), despite that, I made some solutions different from the one presented in the video, like a @media for 1050px resolution.
 
