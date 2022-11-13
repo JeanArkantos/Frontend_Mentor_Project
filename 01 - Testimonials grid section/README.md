@@ -20,4 +20,4 @@ CSS elements that were not acquainted that I learned in this project.
 - background-(image/repeat/position)
 - Grid I already knew, but I learned a little more in practice.
 
-I made a new solution for the responsiveness below 1050px, in the challenge in question I didn't ask for a solution for that, but I thought the grid didn't look cool between 1050px to 768px, so the Grid goes from 3 columns to 2 (tablet) then 1 on mobile version.
+I made a new solution for the responsiveness below 1050px, in the challenge in question it didn't ask for a solution for that, but I thought the grid didn't look cool between 1050px to 768px, so the Grid goes from 3 columns to 2 (tablet) then 1 on mobile version.
