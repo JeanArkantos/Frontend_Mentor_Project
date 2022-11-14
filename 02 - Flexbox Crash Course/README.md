@@ -1,6 +1,6 @@
 # Testimonials grid section
 
-This project was made to learn a little more about Flexbox.
+This project was made to learn a little more about Flexbox. [Link to the online repository on Vercel](https://frontend-mentor-project-tau.vercel.app)
 
 It was made with the help of a video from [Traversy Media](https://www.youtube.com/watch?v=3YW65K6LcIA), despite that, I made some solutions different from the one presented in the video, like a @media for 400px resolution.
 
