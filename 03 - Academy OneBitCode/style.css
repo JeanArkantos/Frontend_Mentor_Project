@@ -24,10 +24,19 @@
   margin: 0 -0.25rem;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-.nav__link:hover {
+.nav__links a:nth-of-type(1):hover {
   color: #fff;
-  box-shadow: inset 200px 0 0 0 #54b3d6;
+  box-shadow: inset 2.8em 0 0 0 #54b3d6;
 }
+.nav__links a:nth-of-type(2):hover {
+  color: #fff;
+  box-shadow: inset 4em 0 0 0 #54b3d6;
+}
+.nav__links a:nth-of-type(3):hover {
+  color: #fff;
+  box-shadow: inset 2.3em 0 0 0 #54b3d6;
+}
+
 .nav__link {
   color: white;
   padding-right: 40px;
