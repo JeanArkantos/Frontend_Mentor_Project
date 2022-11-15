@@ -1,4 +1,4 @@
-# Project Frontend Mentor - Completed Parts 2/20
+# Project Frontend Mentor - Completed Parts 3/20
 
 This is a project related to the Frontend Mentor website, where I will create 20 projects using only HTML and CSS.
 

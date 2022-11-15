@@ -2,7 +2,7 @@
 
 This was a project done during the Fullstack JavaScript Programmer course. The goal was to create a gym landing page using both FlexBox and Grid.
 
-[Click here to access the site.]
+[Click here to access the site.](https://frontend-mentor-project-tau.vercel.app)
 
 This project was created completely from scratch, I just based it on guidance on how the site should look like.
 
