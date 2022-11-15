@@ -1,4 +1,4 @@
-# Testimonials grid section
+# Flexbox Landpage
 
 This project was made to learn a little more about Flexbox. [Link to the online repository on Vercel](https://frontend-mentor-project-tau.vercel.app)
 
