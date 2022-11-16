@@ -4,6 +4,7 @@
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 /*START OF NAVBAR*/
 .nav {
