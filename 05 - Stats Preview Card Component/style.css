@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(233, 47%, 7%);
+  min-height: 100vh;
+  display: flex;
+}
+.container {
+  max-width: 85%;
+  margin: auto auto;
+}
+.main-grid {
+  background-color: hsl(244, 38%, 16%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.image-bg-content {
+  position: relative;
+}
+.image-bg-content::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: hsl(271, 76%, 53%, 0.5);
+}
+.image-bg-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.text-content {
+  padding: 10%;
+}
+.text-content h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+.main-paragraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6;
+}
+.color-soft-violet {
+  color: hsl(277, 64%, 61%);
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  margin-right: 10px;
+}
+.box .stats-num {
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.box p {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 15px;
+}
+@media (max-width: 800px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .image-bg-content {
+    grid-row: 1;
+  }
+}
+@media (max-width: 442px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+}
