@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: #bbb;
+  padding: 1.25rem 0;
+}
+.header-box {
+  position: relative;
+  width: 58.75rem;
+  margin: 0 auto;
+}
+nav {
+  position: absolute;
+  top: 6.875rem;
+  right: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 1rem;
+}
+nav a {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.375rem;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #7a550d;
+  text-decoration: underline;
+}
+.products {
+  width: 58.75rem;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.products li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 1.875rem 1.25rem;
+  border: #000 2px solid;
+  border-radius: 10px;
+}
+.products li:hover {
+  border-color: #7a550d;
+}
+.products li:active {
+  border-color: #0d7a42;
+}
+.products li:hover h2 {
+  font-size: 2.125rem;
+}
+.products h2 {
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+.desc-products {
+  font-size: 1.125rem;
+}
+.price-products {
+  font-size: 1.375rem;
+  font-weight: bold;
+  margin-top: 0.625rem;
+}
+footer {
+  text-align: center;
+  background: url("./imagens/bg.jpg");
+  padding: 2.5rem 0;
+}
+.copyright {
+  color: white;
+  font-size: 0.8125rem;
+  margin: 1.25rem 0 0;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-default {
+  display: block;
+  margin: 0 0 10px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background: orange;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: orangered;
+  transform: scale(1.2);
+}
+
+table {
+  margin: 20px 0 40px;
+}
+
+thead {
+  background: #555;
+  color: white;
+  font-weight: bold;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px 15px;
+}
